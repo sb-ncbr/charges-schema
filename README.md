@@ -25,6 +25,8 @@ mmcif_charges_v10.dic       1.0      https://sb-ncbr.github.io/charges-schema/sc
 
 # Checking the mmCIF
 
+For a full check, you will usually need to download the [official pdbx dict](https://mmcif.wwpdb.org/dictionaries/ascii/mmcif_pdbx_v50.dic). Then do:
+
 ```bash
-gemmi validate -v -d mmcif_charges_v10.dic structure.cif
+gemmi validate -v -d mmcif_pdbx_v50.dic -d mmcif_charges_v10.dic structure.cif
 ```
