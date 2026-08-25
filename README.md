@@ -2,9 +2,9 @@
 
 Current version of the schema is available at [https://sb-ncbr.github.io/charges-schema/schemas/mmcif_charges_v11.dic](https://sb-ncbr.github.io/charges-schema/schemas/mmcif_charges_v11.dic).
 
-![Dictionary overview](https://github.com/sb-ncbr/charges-schema/blob/main/images/schema.png)
+![Dictionary overview](images/schema.png)
 
-See the [full version](https://github.com/sb-ncbr/charges-schema/blob/main/images/schema_full.png) with the descriptions.
+See the [full version](images/schema_full.png) with the descriptions.
 
 ## Charge-set metadata in 1.1
 
