@@ -9,7 +9,7 @@ set -e
 SELF_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="${SELF_DIR}/.."
 
-DICT="${ROOT_DIR}/schemas/mmcif_charges_v10.dic"
+DICT="${ROOT_DIR}/schemas/mmcif_charges_v11.dic"
 SUMMARISE="${SELF_DIR}/summarise.py"
 IMAGES="${ROOT_DIR}/images"
 
@@ -28,4 +28,3 @@ dot -Tpdf "${IMAGES}/schema_full.gv" -o "${IMAGES}/schema_full.pdf"
 rm "${IMAGES}/schema_full.gv"
 
 echo "Diagrams regenerated in ${IMAGES}"
-
